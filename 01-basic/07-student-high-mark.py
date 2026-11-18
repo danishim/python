@@ -10,12 +10,17 @@ def main():
     "jon":78
   }
 
-  for student in dict_student:
-    print(student)
-    print(student[1])
+  highest_mark = 0
 
-  # print(f"Top student: {top_student}")
-  # print(f"Highest marks: {highest_mark}")
+  for student, marks in dict_student.items():
+    # print(student)
+    # print(marks)
+    if marks >= highest_mark:
+      highest_mark = marks
+      top_student = student
+
+  print(f"Top student: {top_student}")
+  print(f"Highest marks: {highest_mark}")
 
 if __name__ == "__main__":
   main()

@@ -1,0 +1,6 @@
+App started
+Invalid email received: dadfs
+App stopped
+App started
+Processed email: {'username': 'da', 'domain': 'gm.com'}
+App stopped
